@@ -28,6 +28,7 @@
     daemon_reload: true
     name: dms-uz
     state: started
+    enabled: true
 
 #- name: Start service dms
 #  service:
