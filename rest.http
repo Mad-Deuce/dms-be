@@ -1,0 +1,15 @@
+### Authorization by token, part 1. Retrieve and save token.
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+  "login": "admin",
+  "password": "user"
+}
+
+> {% client.global.set("auth_token", response.body.json.token); %}
+
+### Authorization by token, part 2. Use token to authorize.
+GET http://localhost:8080/api/devices/by-filter-spec
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInJvbGVzIjpbIlJPTEVfQURNSU4iXSwiaWF0IjoxNjgyNDM4MzkxLCJleHAiOjE2ODI0NzQzOTF9.Twy6QDZkL16o6Paxu4jAyGYF0q4xJvWaT5kiJuzYRt4
+###

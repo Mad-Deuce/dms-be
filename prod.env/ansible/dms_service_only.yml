@@ -1,0 +1,17 @@
+---
+
+- name: "Dms Service Only"
+  hosts: ubuntu
+  gather_facts: false
+  roles:
+    - dms_service
+  become: true
+  become_method: sudo
+  become_user: root
+  vars_files:
+    - vars/default.yml
+
+  handlers:
+    - name: restart postgresql
+      service: name=postgresql state=restarted
+

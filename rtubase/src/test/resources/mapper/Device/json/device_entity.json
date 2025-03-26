@@ -1,0 +1,92 @@
+{
+  "location": {
+    "id": 10110010000003,
+    "facility": {
+      "id": "1011001",
+      "kodRtu": 1,
+      "codeNum": 1,
+      "codeStr": "001",
+      "name": "ст. Близнецы",
+      "kind": "S",
+      "cls": "ST",
+      "subdivision": {
+        "id": "101",
+        "railway": {
+          "id": "1",
+          "name": "Донецька",
+          "code": "1"
+        },
+        "shortName": "ШЧ-1",
+        "name": "ШЧ-1 Слов'янськ",
+        "code": 1
+      }
+    },
+    "locate": "131",
+    "placeNumber": "96",
+    "description": "ПР3  ПХС",
+    "locateType": "ST",
+    "region": null,
+    "regionType": "EC",
+    "okSend": "2",
+    "opcl": "0",
+    "scode": "F",
+    "detail": null
+  },
+  "type": {
+    "id": 10100101,
+    "group": {
+      "id": 1,
+      "name": "Реле"
+    },
+    "name": "НР1-400",
+    "replacementPeriod": 120,
+    "adjustmentTime": "2.100",
+    "acceptanceTime": "0.170",
+    "argentNorm": "11.9200",
+    "goldNorm": "0.0000",
+    "platinumNorm": "0.0000",
+    "alcoholNorm": "0.0000",
+    "nameOld": null,
+    "createDate": "2007-04-17T21:00:00.000",
+    "plant": null,
+    "scode": "+",
+    "tag1": null,
+    "tag2": null
+  },
+  "number": "00125",
+  "releaseYear": "1990",
+  "status": "PS11",
+  "createDate": null,
+  "id": 1011000045,
+  "nextTestDate": "2020-12-20",
+  "testDate": "2000-01-01",
+  "replacementPeriod": 120,
+  "facility": {
+    "id": "1011001",
+    "kodRtu": 1,
+    "codeNum": 1,
+    "codeStr": "001",
+    "name": "ст. Близнецы",
+    "kind": "S",
+    "cls": "ST",
+    "subdivision": {
+      "id": "101",
+      "railway": {
+        "id": "1",
+        "name": "Донецька",
+        "code": "1"
+      },
+      "shortName": "ШЧ-1",
+      "name": "ШЧ-1 Слов'янськ",
+      "code": 1
+    }
+  },
+  "okSend": null,
+  "opcl": null,
+  "tidPr": null,
+  "tidRg": null,
+  "scode": null,
+  "detail": "some_detail"
+}
+
+
